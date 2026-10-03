@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Транзакции — Управление финансами</title>
+    <link rel="stylesheet" href="/css/Transactions.css">
+</head>
+<body>
+    <div class="layout">
+        <aside class="sidebar">
+            <div class="sidebar-brand">Личные финансы</div>
+            <nav class="sidebar-nav">
+                <a href="/Categories.html" class="nav-link">Категории</a>
+                <a href="/ExpenseItems.html" class="nav-link">Статьи расходов</a>
+                <a href="/Transactions.html" class="nav-link active">Транзакции</a>
+            </nav>
+        </aside>
+
+        <div class="content">
+            <header class="page-header">
+                <h1>Транзакции</h1>
+                <button class="btn-primary" type="button">+ Добавить транзакцию</button>
+            </header>
+
+            <main class="page-body">
+                <div class="toolbar">
+                    <button class="date-btn" type="button">📅 2 октября 2026</button>
+
+                    <div class="summary-card">
+                        <div>
+                            <div class="summary-label">Расходы за день</div>
+                            <div class="summary-amount yellow">1 245,50 ₽</div>
+                        </div>
+                        <div class="sticker yellow">
+                            <span class="sticker-dot"></span>
+                            В пределах обычного
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Время</th>
+                                <th>Статья расходов</th>
+                                <th style="text-align: right;">Сумма</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="item-time">12:30</td>
+                                <td class="item-name">Обеды</td>
+                                <td class="amount">450,00 ₽</td>
+                            </tr>
+                            <tr>
+                                <td class="item-time">09:15</td>
+                                <td class="item-name">Общественный транспорт</td>
+                                <td class="amount">80,00 ₽</td>

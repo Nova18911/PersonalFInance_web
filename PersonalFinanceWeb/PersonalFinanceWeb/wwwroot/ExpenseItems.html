@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Статьи расходов — Управление финансами</title>
+    <link rel="stylesheet" href="/css/ExpenseItems.css">
+</head>
+<body>
+    <div class="layout">
+        <aside class="sidebar">
+            <div class="sidebar-brand">Личные финансы</div>
+            <nav class="sidebar-nav">
+                <a href="/Categories.html" class="nav-link">Категории</a>
+                <a href="/ExpenseItems.html" class="nav-link active">Статьи расходов</a>
+                <a href="/Transactions.html" class="nav-link">Транзакции</a>
+            </nav>
+        </aside>
+
+        <div class="content">
+            <header class="page-header">
+                <h1>Статьи расходов</h1>
+                <button class="btn-primary" type="button">+ Добавить статью</button>
+            </header>
+
+            <main class="page-body">
+                <div class="card">
+                    <div class="card-title">Питание</div>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Название</th>
+                                <th style="width: 120px;">Статус</th>
+                                <th style="width: 180px; text-align: right;">Действия</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="item-name">Обеды</td>
+                                <td><span class="badge badge-active">Активна</span></td>
+                                <td>
+                                    <div class="actions">
+                                        <button class="btn-sm btn-edit" type="button">Изменить</button>
+                                        <button class="btn-sm btn-delete" type="button">Удалить</button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="item-name">Продукты домой</td>
+                                <td><span class="badge badge-active">Активна</span></td>
+                                <td>
+                                    <div class="actions">
+                                        <button class="btn-sm btn-edit" type="button">Изменить</button>
+                                        <button class="btn-sm btn-delete" type="button">Удалить</button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="item-name">Кофе с собой</td>
+                                <td><span class="badge badge-inactive">Неактивна</span></td>
+                                <td>
+                                    <div class="actions">
+                                        <button class="btn-sm btn-edit" type="button">Изменить</button>
+                                        <button class="btn-sm btn-delete" type="button">Удалить</button>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="card">
+                    <div class="card-title">Транспорт</div>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Название</th>
+                                <th style="width: 120px;">Статус</th>
+                                <th style="width: 180px; text-align: right;">Действия</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="item-name">Общественный транспорт</td>
+                                <td><span class="badge badge-active">Активна</span></td>
+                                <td>
+                                    <div class="actions">
+                                        <button class="btn-sm btn-edit" type="button">Изменить</button>
+                                        <button class="btn-sm btn-delete" type="button">Удалить</button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="item-name">Такси</td>
+                                <td><span class="badge badge-active">Активна</span></td>
+                                <td>
+                                    <div class="actions">
+                                        <button class="btn-sm btn-edit" type="button">Изменить</button>
+                                        <button class="btn-sm btn-delete" type="button">Удалить</button>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="card">
+                    <div class="card-title">Жильё</div>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Название</th>
+                                <th style="width: 120px;">Статус</th>
+                                <th style="width: 180px; text-align: right;">Действия</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="item-name">Коммунальные услуги</td>
+                                <td><span class="badge badge-active">Активна</span></td>
+                                <td>
+                                    <div class="actions">
+                                        <button class="btn-sm btn-edit" type="button">Изменить</button>
+                                        <button class="btn-sm btn-delete" type="button">Удалить</button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="item-name">Аренда</td>
+                                <td><span class="badge badge-inactive">Неактивна</span></td>
+                                <td>
+                                    <div class="actions">
+                                        <button class="btn-sm btn-edit" type="button">Изменить</button>
+                                        <button class="btn-sm btn-delete" type="button">Удалить</button>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+</html>
