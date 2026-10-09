@@ -13,22 +13,12 @@
     </header>
 
     <div class="tabs">
-        <a href="/Categories.html" class="tab active">Категории</a>
-        <a href="/ExpenseItems.html" class="tab">Статьи расходов</a>
-        <a href="/Transactions.html" class="tab">Транзакции</a>
+        <a class="tab active">Категории</a>
+        <a class="tab">Статьи расходов</a>
+        <a class="tab">Транзакции</a>
     </div>
 
     <div class="page">
-        <div class="card">
-            <div class="form-row">
-                <div class="field">
-                    <label>Название</label>
-                    <input type="text" placeholder="Например: Питание" style="width:220px" />
-                </div>
-                <button class="btn btn-primary" type="button">+ Добавить</button>
-            </div>
-        </div>
-
         <div class="card">
             <div class="form-row">
                 <div class="field">
@@ -50,13 +40,12 @@
                             <th>Действия</th>
                         </tr>
                     </thead>
-                    <tbody id="cat-tbody"></tbody>
                 </table>
             </div>
         </div>
-
-        <script src="/js/api.js"></script>
-        <script src="/js/categories.js"></script>
     </div>
+
+    <script src="/js/api.js"></script>
+    <script src="/js/categories.js"></script>
 </body>
 </html>
